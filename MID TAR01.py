@@ -106,5 +106,46 @@ for i in range(l):
     v=i+1
     tdict.update({k:v})
     print(tdict)
-'''
 
+#tar11
+
+first_string=input("enter a string:\n")
+second_string=input("enter another string:\n")
+c_string=(first_string + "," +second_string)
+#print(c_string)
+i=c_string.index(',')
+l=len(c_string)
+#print(str(i) + ',' +str(l))
+print(c_string[(i+1):(l-1)] + c_string[i-1] + "," + c_string[0:(i-1)] + c_string[l-1])
+
+#tar12
+import collections
+str1 = 'thequickbrownfoxjumpsoverthelazydog'
+d = collections.defaultdict(int)
+for c in str1:
+    d[c] += 1
+
+for c in sorted(d, key=d.get, reverse=True):
+  if d[c] > 1:
+      print('%s %d' % (c, d[c]))
+
+#tar13
+
+# Python program to find sum of elements in list
+total = 0
+
+
+list1 = [11, 5, 17, 18, 23]
+
+for elements in range(0, len(list1)):
+	total = total + list1[elements]
+
+print("Sum of all elements in given list: ", total)
+'''
+#tar17
+
+list1 = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+list1.pop(5)
+list1.pop(4)
+list1.pop(0)
+print(list1)
