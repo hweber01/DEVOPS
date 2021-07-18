@@ -55,7 +55,56 @@ else:
 f=input("emter feet:\n")
 n=input("enter inches:\n")
 print(f + " feet and " + n + " inches are:" + str(int(f)*30.48 + int(n)*2.54) + " cm")
-'''
 
 #tar08
+
+n = 20
+d = {"x":200}
+
+print(type(n)())
+print(type(d)())
+
+
+def Empty_Var(lst):
+   return [type(i)() for i in lst]
+lst = ["python",{"x":12},[10,12,"sfsd"], (4,5), 200]
+print("Original objects:")
+print(lst)
+print("\nEmpty the said variables without destroying it:")
+print(Empty_Var(lst))
+
+
+#tar09
+
+dict_t= {0: 10, 1: 20}
+print(dict_t.values())
+print(dict_t.keys())
+print(len(dict_t))
+Keymax = max(dict_t, key=dict_t.get)
+valmax = max(dict_t.values())
+print(Keymax)
+print(valmax)
+print(dict_t)
+dict_t.update({Keymax+1:valmax+10})
+print(dict_t)
+
+
+#tar10
+from collections import defaultdict, Counter
+tstr='Net4U'
+my_dict = {}
+for letter in tstr:
+    my_dict[letter] = my_dict.get(letter, 0) + 1
+print(my_dict)
+
+l=len(tstr)
+print(str(l))
+tdict={}
+bdict={}
+for i in range(l):
+    k=tstr[i]
+    v=i+1
+    tdict.update({k:v})
+    print(tdict)
+'''
 
