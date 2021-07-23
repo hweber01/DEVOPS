@@ -23,8 +23,11 @@ def friends(x):
             flist.append(nn)
             print(flist)
 ### factorial
-def fact():
-    print("fact()")
+def fact(y):
+    num = 1
+    for i in range(1,y+1):
+        num=(num*i)
+    print(str(y) + " factorial is " + str(num))
 
 ### menu
 def menu():
@@ -38,7 +41,8 @@ def menu():
             friends(5)
             continue
         elif (n == 3):
-            fact()
+            fn=int(input("enter a number:\n"))
+            fact(fn)
             continue
         elif (n == 4):
             tf = (False)
