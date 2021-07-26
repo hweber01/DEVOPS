@@ -24,10 +24,10 @@ print("7.8.7.7" in adict.values())
 
 #LAB05
 
-tdict={"Ron Smith":"1000","James Jones":"32","Martha Viniard":"28","Brandy Car":"40","Jonah Brother":"35"}
+tdict={"Ron Smith":982,"James Jones":32,"Martha Viniard":28,"Brandy Car":40,"Jonah Brother":735}
 print(tdict)
-a=int(tdict["Ron Smith"]) + int(tdict["Jonah Brother"])
-tdict.update({"eric clap": str(a)})
+a=tdict["Ron Smith"] + tdict["Jonah Brother"]
+tdict.update({"eric clap": a})
 print("this is the sum of money: " + str(a))
 print(tdict)
 print(str(len(tdict)))

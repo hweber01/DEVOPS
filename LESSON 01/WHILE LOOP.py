@@ -48,7 +48,7 @@ while(True):
 
     elif(choice<1 or choice>4):
         print("wrong choice! choose between 1-4")
-
+'''
 while (True):
     name=input("enter a name: ")
     if(name=="Noa"):
@@ -61,4 +61,3 @@ while (True):
         print("too lazy to write a line")
 
 print("Hasta la vista baby")
-'''
