@@ -18,10 +18,10 @@ def friends(x):
             nn=()
             nn = input("enter a friends name:\n")
             flist.append(nn)
-            print(flist)
+            print("this is your friends list: " + str(flist))
         else:
             flist.append(nn)
-            print(flist)
+            print("this is your friends list: " + str(flist))
 ### factorial
 def fact(y):
     num = 1
