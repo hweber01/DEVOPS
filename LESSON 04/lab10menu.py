@@ -1,6 +1,6 @@
 #lab 10 menu
 import LAB10A
-#import LAB10B
+import LAB10B
 
 
 def mmenu():
@@ -9,7 +9,7 @@ def mmenu():
         if (mm_choice=="a"):
             LAB10A.amenu()
         elif(mm_choice=="b"):
-            print("DNS")
+            LAB10B.bmenu()
         elif(mm_choice=="q"):
             break
         else:
