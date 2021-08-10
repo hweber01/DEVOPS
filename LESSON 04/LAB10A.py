@@ -7,7 +7,7 @@ afile = "C:/Users/hille/Desktop/Documents/HILLEL/CYBER COURSE/PYTHON/LAB10A.txt"
 regex = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
 file = open(afile, "r")
 mystring = file.read()
-print(mystring)
+#print(mystring)
 alist = mystring.split(",")
 
 def a1():

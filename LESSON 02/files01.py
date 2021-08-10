@@ -71,7 +71,7 @@ file.close()
 '''
 filename = "C:/Users/hille/Desktop/Documents/HILLEL/CYBER COURSE/PYTHON/handling.txt"
 file = open(filename, "r")
-print(file.readlines()[1:3])
+print(file.readlines()[0:3])
 file.close()
 
 #file = open("C:/Users/hille/Desktop/Documents/HILLEL/CYBER COURSE/PYTHON/handling01.txt","x")

@@ -1,7 +1,7 @@
 #lab 10 menu
+
 import LAB10A
 import LAB10B
-
 
 def mmenu():
     while(True):

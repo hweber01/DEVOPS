@@ -32,3 +32,7 @@ print("this is the sum of money: " + str(a))
 print(tdict)
 print(str(len(tdict)))
 print("rosanne" in tdict)
+tdicti=tdict.items()
+print(list(tdict.items()))
+for k,v in tdict.items():
+    print((k) + "," +(v))
